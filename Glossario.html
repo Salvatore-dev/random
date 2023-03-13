@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,17 +15,17 @@
     <h1>h1 serve per dare un intestazione</h1>
     <h2>h2 serve per dare un intestazione più piccola rispetto a h1</h2>
 
-    
+
     <p>p, serve per scrivere un paragrafo, un testo, può contenere sotto paragrafi</p>
 
     <div> una parte generica di una pagina, può essere un contenitore di altro</div>
-<!-- riscrivo quello che si scrive online -->
+    <!-- riscrivo quello che si scrive online -->
 
-<div>
-    <h3>div</h3>
-    <hr>
-    <span> è un contenitore genirico, un elemento di blocco, cioè di tipo block level element</span>
-    <pre>
+    <div>
+        <h3>div</h3>
+        <hr>
+        <span> è un contenitore genirico, un elemento di blocco, cioè di tipo block level element</span>
+        <pre>
         <code>
             &ltdiv>
                 &lt;main>
@@ -40,13 +41,13 @@
             &lt/div>
         </code>    
     </pre>
-</div>
+    </div>
 
-<div>
-    <h3>body</h3>
-    <hr>
-    <span> è il corpo del documento, la parte visibile</span>
-    <pre>
+    <div>
+        <h3>body</h3>
+        <hr>
+        <span> è il corpo del documento, la parte visibile</span>
+        <pre>
         <code>
             &ltbody>
                 &ltdiv>
@@ -66,13 +67,13 @@
                 
         </code>    
     </pre>
-</div>
-</div>
-<div>
-    <h3>span</h3>
-    <hr>
-    <span> è un contenitore generico di tipo in line</span>
-    <pre>
+    </div>
+    </div>
+    <div>
+        <h3>span</h3>
+        <hr>
+        <span> è un contenitore generico di tipo in line</span>
+        <pre>
         <code>
             &ltbody>
                 &ltdiv>
@@ -97,12 +98,12 @@
             </div>
 
     </pre>
-<div>
-    <div>
-        <h3>section</h3>
-        <hr>
-        <span>il section è un contenitore semantico che indica una sezione</span>
-        <pre>
+        <div>
+            <div>
+                <h3>section</h3>
+                <hr>
+                <span>il section è un contenitore semantico che indica una sezione</span>
+                <pre>
             <code>
                 &ltsection>
                     &ltdiv>
@@ -127,11 +128,44 @@
                 </div>
     
         </pre>
+            
+                <h2>Button</h2>
+                <hr>
+                <button type="button">clicca </button>
+                <p>questo è un tag per creare un bottone cliccabile sulla pagina</p>
 
-</div>
+                <div class="input">
+                    <h2>tag: Input</h2>
+                    <hr>
+                    <p>si tratta di un tag utilizzato per creare delle interazione con il server. <br> per creare dei incontrolli interattivi <br> funziona insieme a delle specifiche che individuano il tipo di controllo-relazione che si vuole creare</p>
+                    <label for="name">Nome da 7 a 10 caratteri</label>
+                    <input type="text" id="name" requised minlength="7" maxlength="10">
+                    <br> <hr>
+                </div>
 
+                <div class="input_button">
+                    <input type="button" value="clicaci sopra e scopri">
+                    <p>al tag input se si aggiunge " type="button" si crea un bottone che può essere stilizzato con il css: <br> si possono applicare attributi al pulsante stesso, e  anche con l'uso delle pseudo classi :hover :active determinare rispettivamente lo stile del pulsante visitato o in stato di pressione</p> <hr>
+                </div>
 
+                <div class="input_checkbox">
+                    <fieldset>
+                        <legend>Scegli il pilota di F1 che preferisci</legend>
+                        <div>
+                            <input type="checkbox" id="Senna" name="Senna">
+                            <label for="Senna">Senna</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Prost" name="Prost">
+                            <label for="Prost">Prost</label>
+                        </div>
+                    </fieldset>
+                    <p>Questo tag ha una sintassi specifica: si una un tag "fieldset" che funge da contenitore; <br> un tag "legend" che riporta la scritta descrittiva della selezione in linea con la cornice <br>poi si creano un  "div" per ogni casella che si vuole creare con il solito tag "lebel" (vedi il mio html) <br></p>
+                </div>
+
+            
 
 
 </body>
+
 </html>

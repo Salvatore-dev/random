@@ -1,0 +1,53 @@
+* {
+    margin-top: 15px;
+}
+button {
+    width: 70px;
+    height: 50px;
+    background-color: red;
+    font-size: large;
+    border-radius: 10%;
+    /* line-height: 2.0; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+button:hover {
+    background-color: rgb(96, 221, 163);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    border-radius: 15px;
+    /* zoom: 1.5; */
+}
+
+.input label {
+    display: block;
+    font: 2rem/1.5 "Helvetica Neue", "Helvetica";
+}
+.input > label {
+    margin: 0.5rem 0;
+}
+
+.input_button input{
+    background-color: darkmagenta;
+    text-align: center;
+    color: antiquewhite;
+    padding: 2 15px;
+    font-size: large;
+    border-radius: 10px;
+    
+}
+
+.input_button input:hover {
+    background-color: aliceblue;
+    cursor: alias;
+    color: blue;
+}
+.input_button input:active {
+    background-color: gold;
+    color: black;
+    border-radius: 15px;
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: grab;
+}
